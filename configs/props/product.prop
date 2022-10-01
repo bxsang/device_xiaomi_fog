@@ -2,3 +2,6 @@
 audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
 ro.config.vc_call_vol_steps=11
+
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
