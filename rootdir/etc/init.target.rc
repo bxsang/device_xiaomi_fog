@@ -177,10 +177,22 @@ on property:vendor.usb.controller=*
     setprop sys.usb.controller ${vendor.usb.controller}
 
 on charger
-    start vendor.power_off_alarm
-    setprop vendor.usb.controller 4e00000.dwc3
+    chown system system /sys/class/backlight/panel0-backlight/brightness
+    setprop persist.sys.usb.config mass_storage
     setprop sys.usb.configfs 1
+    setprop vendor.usb.controller 4e00000.dwc3
     start mi_thermald
+    start vendor.power_off_alarm
+    start vendor.qcom-post-boot
+
+on property:init.svc.vendor.charger=running
+    # Keep one LITTLE and one BIG
+    write /sys/devices/system/cpu/cpu1/online 0
+    write /sys/devices/system/cpu/cpu2/online 0
+    write /sys/devices/system/cpu/cpu3/online 0
+    write /sys/devices/system/cpu/cpu5/online 0
+    write /sys/devices/system/cpu/cpu6/online 0
+    write /sys/devices/system/cpu/cpu7/online 0
 
     # Restrict permissions to socket file
     # to hide Magisk & co.
