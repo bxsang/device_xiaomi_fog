@@ -149,6 +149,9 @@ ro.vendor.bluetooth.wipower=false
 vendor.hw.fm.init=0
 vendor.qcom.bluetooth.soc=cherokee
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Charger
 persist.vendor.quick.charge=1
 
