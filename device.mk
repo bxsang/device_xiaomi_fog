@@ -344,7 +344,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderFog \
     SystemUIFog \
     TelephonyFog \
-    WifiFog
+    WifiFog \
+    ApertureFog
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
