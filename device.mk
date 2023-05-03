@@ -101,6 +101,8 @@ PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
 # Camera
+$(call inherit-product-if-exists, device/xiaomi/sm6225-common-miuicamera/config.mk)
+
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor \
