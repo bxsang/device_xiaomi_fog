@@ -3,3 +3,6 @@ allow platform_app sysfs_msm_subsys:file r_file_perms;
 allow platform_app zygote:unix_stream_socket { getopt };
 
 get_prop(platform_app, audio_config_prop);
+
+dontaudit platform_app default_android_service:service_manager find;
+
