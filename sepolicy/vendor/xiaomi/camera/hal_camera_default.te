@@ -9,3 +9,6 @@ get_prop(hal_camera_default, vendor_persist_camera_prop)
 get_prop(hal_camera_default, exported_camera_prop)
 get_prop(hal_camera_default, vendor_fingerprint_prop)
 allow hal_camera_default proc_stat:file r_file_perms;
+
+# Allow QSPM hal service accessing camera
+hal_client_domain(hal_camera_default, vendor_hal_qspmhal)
