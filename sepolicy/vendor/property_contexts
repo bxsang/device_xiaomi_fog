@@ -46,6 +46,3 @@ ro.vendor.oem.psno                              u:object_r:vendor_sno_prop:s0
 
 # Thermal
 vendor.sys.thermal.                             u:object_r:vendor_thermal_normal_prop:s0
-
-# WiFi Display
-persist.vendor.setWFDInfo.                      u:object_r:vendor_wfd_sys_debug_prop:s0
