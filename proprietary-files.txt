@@ -1,4 +1,4 @@
-# All MIUI blobs below are extracted from miui_FOGGlobal_V13.0.6.0.SGEMIXM_2fb738a0f4_12.0
+# All MIUI blobs below are extracted from miui_FOGGlobal_V14.0.2.0.TGEMIXM_d9fc7d070f_13.0
 
 # ACDB - from MIUI
 vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Bluetooth_cal.acdb|0cc92d7ce081e30ccaa203b3591f592d7ca36a6d
@@ -95,7 +95,7 @@ vendor/lib/rfsa/adsp/misound_res_spk.bin|9f47907039097e78b9dded73f721cea440422ee
 
 # Alarm - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|6508f5708221399eb8bd9754dc49bad32a911e27
+-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar|6508f5708221399eb8bd9754dc49bad32a911e27
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6446a38537ceb4afdc2cdbbd7645e2616842ba6a
 vendor/bin/power_off_alarm|71e47e029ad444494c286dcd655f534c033a7ab1
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
@@ -111,7 +111,7 @@ vendor/firmware/fs1599.fsm|642a47863bc5ad3b7de6c7a04a3289ab322cf7d6
 
 # Audio FX - from MIUI
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
-system_ext/framework/audiosphere.jar|98d17293550d99e59d1edd8582ed4551dc167249
+-system_ext/framework/audiosphere.jar|98d17293550d99e59d1edd8582ed4551dc167249
 vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
 vendor/lib/soundfx/libmisoundfx.so|460208c6ac74b2f79ae2cb064ddbdb1c25ce0e33
 vendor/lib/soundfx/libqcbassboost.so|cc5ec98ec56b02bdb9f6b1de0a2a4e0f2b18c315
@@ -547,7 +547,7 @@ vendor/lib64/vendor.display.color@1.5.so|de239337ad42863e5eabeff196b20345d0dce00
 vendor/lib64/vendor.display.postproc@1.0.so|e94ad60150b7b6b1c09133c03341044a32cdfde7
 
 # DPM ( system ) - from LA.QSSI.13.0.r1-08600-qssi.0
-framework/tcmclient.jar|0402c82a800b58a2e93fd7cb8e81a24e674ebc35
+-framework/tcmclient.jar|0402c82a800b58a2e93fd7cb8e81a24e674ebc35
 system_ext/bin/dpmd|d098df72c60697de359a80d6377689d98fb11221
 system_ext/bin/tcmd|d279a1e4b4860d50bb5a2fbb1bf89669c0c5acec
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -556,8 +556,8 @@ system_ext/etc/init/tcmd.rc|3ce262333f63be15507f6be131056c56be2672c9
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/dpmapi.xml|255903759a60a31c0876ec004e74554c753270fe
 system_ext/etc/seccomp_policy/tcmd.policy|9073ab5723d24647bf204899f3d9bf762aab9fb6
-system_ext/framework/com.qti.dpmframework.jar|06871af3c26d8357a250276948112d8eae105e01
-system_ext/framework/dpmapi.jar|556f859768e370414eb91b0e5aaab619d655e2d8
+-system_ext/framework/com.qti.dpmframework.jar|06871af3c26d8357a250276948112d8eae105e01
+-system_ext/framework/dpmapi.jar|556f859768e370414eb91b0e5aaab619d655e2d8
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|62e5bfe5c7525844a828e89360fde9694a7cdf96
 system_ext/lib64/libdpmctmgr.so|9d13e5ae9882f5b7e6ac31a9d073a66a27d1c465
 system_ext/lib64/libdpmfdmgr.so|b705b098462e1198fc24175732d687142cc26562
@@ -769,11 +769,11 @@ vendor/lib64/hw/vulkan.adreno.so|e259809354273562b4b7f1c8c5a78983c68ef8da
 -system_ext/app/ImsRcsService/ImsRcsService.apk|1808781bcabdec3db97fd19cfe0365a1040178c1
 -system_ext/app/uceShimService/uceShimService.apk|d6de9593cf743440f861f041d4724ec9488e4139
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml|7ce9e6ccb5026b0aa87b0eb94a20448e2d4c481c
-system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar|ec58d15adf1930c4dcfb59e209a4bcf8d230a756
-system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar|3218cd7bba1dd0e0a140d93d252b96b8e2c81ae5
-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|ae7015efe55d17b1caf0da0c2247dac6cfaaa272
-system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|137f296405fd5f8c036c511f1d186e7178c5d57f
-system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|70dbc40c581103970402959342ea250b6a1fb84b
+-system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar|ec58d15adf1930c4dcfb59e209a4bcf8d230a756
+-system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar|3218cd7bba1dd0e0a140d93d252b96b8e2c81ae5
+-system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar|ae7015efe55d17b1caf0da0c2247dac6cfaaa272
+-system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar|137f296405fd5f8c036c511f1d186e7178c5d57f
+-system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar|70dbc40c581103970402959342ea250b6a1fb84b
 system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar|d711276f07ff0fd81fc6a63ad018b3eaf85ef4c9
 system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar|f54828a81f02b1f9ff1379e34efb60d064aa27f6
 system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar|e627b85a9268734c5e66adf67d18e6d3fb0bf1de
@@ -1246,9 +1246,9 @@ system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d4
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|a7e114ea1e6909685ce49717a2b5b66d8275d419
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml|fc930929bee7d1f8ecc5b1c76193acdc2f923fe7
-system_ext/framework/embmslibrary.jar|6fd7f060af0bb76dba317b58cef9b51e0a37a6cc
-system_ext/framework/qcrilhook.jar|8d44048c04f4d38a6bf6a279e3bceface10c0dde
-system_ext/framework/qti-telephony-common.jar|8d94e50a8dc3e796e3a4c78cefdf6903bf1a524e
+-system_ext/framework/embmslibrary.jar|6fd7f060af0bb76dba317b58cef9b51e0a37a6cc
+-system_ext/framework/qcrilhook.jar|8d44048c04f4d38a6bf6a279e3bceface10c0dde
+-system_ext/framework/qti-telephony-common.jar|8d94e50a8dc3e796e3a4c78cefdf6903bf1a524e
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|e3cf3ab60bf632270eccc4e99ead89254d3d84ab
 
 # RIL ( vendor ) - from LA.UM.9.15.2.r1-06600-KAMORTA.QSSI-13.0
